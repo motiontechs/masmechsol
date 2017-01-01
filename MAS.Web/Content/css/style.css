@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One); /*font-family: 'Fjalla One', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu); /*font-family: 'Ubuntu', sans-serif;*/
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100,200,300,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,600italic,700italic,700);
+
+body{overflow-x:hidden;font-family: 'Yanone Kaffeesatz', sans-serif;font-size: 18px;color: #333333;background-color: #fff;font-weight:300;}
+a{text-decoration:none !important;}
+img.fullwidth{width:100%;float:left;}
+
+/*********top bar************/
+.top-bar-wrap{padding: 4px 0;background-color: #3b3936;}
+.top-bar{min-height: 20px;line-height: 20px;}
+.top-bar a{font-size: 12px;color:#fff;}
+.top-bar .social-1 li a i{width:20px;height: 20px;line-height: 20px;font-size: 13px;}
+.sticky{width:100%;z-index: 999;}
+.top-bar{background-color: #f9f9f9;}
+.top-bar .info {margin: 0px;}
+.top-bar .info li {font-size: 14px;display: table-cell;vertical-align: middle;height: 40px;color:#555;font-weight: 500;font-size: 13px;border-bottom: none;}
+.top-bar .info li a{color:#555;margin-right: 10px;}
+.top-bar .widget ul li a:after,.widget.widget_bw_social_widget ul li a:after{content: "";    }
+.top-bar .widget ul li,.widget.widget_bw_social_widget ul li {border-bottom: none;padding: 0px 2px;}
+
+/*Navigation*/
+.navbar-brand{font-family:'Cuprum', sans-serif;font-size:30px;}
+.nav li a{text-transform:uppercase;font-size:14px; font-family: 'Ubuntu', sans-serif;}
+ul.footer-list{color:rgba(208, 208, 208, 0.8);margin:0px;padding:0px;list-style:none;}
+ul.footer-list li{font-size:14px !important;}
+
+ul.page-menu{list-style:none;}
+ul.page-menu li a{font-family: 'Cuprum', sans-serif !important;font-size:14px !important;}
+ul.side-menu li{float:left;width:100%;margin:4px 0px 1px 0px;list-style:none;}
+ul.side-menu li a{font-weight:normal;font-family: 'Ubuntu', sans-serif !important;font-size:13px;float:left;width:100%;display:block;background:#E6E7E8;padding:7px 0px 7px 10px;color:#6D6E71;}
+ul.side-menu li a:hover,ul.side-menu li a.current{background:#2572AF;color:#fff;}
+
+/*Facts*/
+#facts{padding:25px 0 60px 0;margin:0;margin-top:50px;}
+.facts-detail{margin-top:20px;}
+.facts-in h3{ font-size:48px; text-align:center; text-transform:capitalize; font-family:'fjalla One', sans-serif;}
+.facts-in h3 i{color:#e32187; margin-right:15px;}
+.facts-in h4{font-size:30px;color:#777;text-align:center;}
+
+/*Page Content*/
+.page-content{margin-top:20px; min-height:250px !important; height:auto !important;max-height:2000px !important;}
+.page-content h6{font-size:27px;line-height:35px;color:#046AA6;font-weight:normal;font-family:'Ubuntu', sans-serif;margin:0px 0px 22px 0px;}
+.page-content h6.purpose_inside_title{font-size:24px;line-height:32px;}
+.page-content p.title{font-size:20px;color:#056AA6;font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;padding-bottom:11px;}
+.page-content p{font-size: 16px;color: #6D6E71;font-weight: normal;font-family: 'Ubuntu', sans-serif !important;line-height: 24px;padding: 0px 0px 5px 0px;}
+
+/*Enquirey*/
+#enquirey{padding:25px 0;}
+/*Contact Us*/
+#contactUs{padding:25px 0;}
+#contactUs p, #contactUs a{color:#aaa !important;}
+/*Copyright*/
+#copyright{padding:20px 0 10px 0;}
+
+/*Page Title*/
+#page-banner{width: 100%;background-size: cover;height: 400px;position: relative;margin: 77px 0 0 0;background-color:#046AA6;}
+
+/*Mobile App Development*/
+ul.listing{margin-bottom:20px;}
+ul.listing li{margin-bottom:5px;margin-left:5px;font-size:15px;color:#6D6E71}
+    
+/* Backgrounds */
+.bg-theme{background-color:#033B96;}
+.bg-white {background-color: #ffffff;}
+.bg-black {background-color: #3f3939;}
+.bg-turquoise {background-color: #1abc9c;}
+.bg-green-sea {background-color: #16a085;}
+.bg-emerland {background-color: #2ecc71;}
+.bg-nephritis {background-color: #27ae60;}
+.bg-peter-river {background-color: #3498db;}
+.bg-belize-hole {background-color: #2980b9;}
+.bg-amethyst {background-color: #9b59b6;}
+.bg-wisteria {background-color: #8e44ad;}
+.bg-wet-asphalt {background-color: #34495e;}
+.bg-midnight-blue {background-color: #2c3e50;}
+.bg-sun-flower {background-color: #f1c40f;}
+.bg-orange {background-color: #f39c12;}
+.bg-carrot {background-color: #e67e22;}
+.bg-pumpkin {background-color: #d35400;}
+.bg-alizarin {background-color: #e74c3c;}
+.bg-pomegranate {background-color: #c0392b;}
+.bg-clouds {background-color: #ecf0f1;}
+.bg-silver {background-color: #bdc3c7;}
+.bg-concrete {background-color: #95a5a6;}
+.bg-asbestos {background-color: #7f8c8d;}
+.bg-base {background-color: #34495e;}
+.bg-firm {background-color: #1abc9c;}
+.bg-success {background-color: #2ecc71;}
+.bg-danger {background-color: #e74c3c;}
+.bg-warning {background-color: #f1c40f;}
+.bg-info {background-color: #3498db;}
+.bg-theme-blue{background-color:#229fda;}
+.bg-theme-pink{background-color:#056aa6;}
+
+/*Font Color*/
+.col-white{color:#fff;}
+.col-blue{color:#046AA6;}
+.col-pink{color:#e32187;}
+.col-sky-blue{color:#229fda;}
+
+/* Font Settings */
+h1, h2, h3, h4, h5{font-family: 'Yanone Kaffeesatz', sans-serif;}
+h1{text-transform:uppercase; font-family: 'Yanone Kaffeesatz', sans-serif;}
+p, ul{font-family:'Ubuntu', sans-serif;font-size:15px;}
+.font-oswald{font-family: 'Oswald', sans-serif;}
+.font-yanone{font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:400;text-transform:capitalize;}
+.font-titillium{font-family: 'Titillium Web', sans-serif;}
+.bold{font-weight:bold !important;}
+h2.page-headings{padding-bottom:20px;color:#046AA6;}
+
+
+/* Padding */
+.panel-body{padding:0;}
+.pad15{padding:15px;}
+.padBot15{padding-bottom:15px;}
+.padTop15{padding-top:15px;}
+.padlLef15{padding-Left:15px;}
+.padRig15{padding-right:15px;}
+
+/*Margin*/
+.margin20{margin:20px ;}
+
+
+/*Form Elements*/
+::-webkit-input-placeholder {color: rgba(208, 208, 208, 0.8);font-weight:normal;}
+:-moz-placeholder { /* Firefox 18- */color: red;  }
+::-moz-placeholder {  /* Firefox 19+ */color: red;  }
+:-ms-input-placeholder {  color: red;  }
+label{font-weight:normal;padding:0px;}
+label.control-label span{color:#cc0000 !important;margin-left:5px;}
+.form-control{font-size:14px;color:#2572AF;font-weight:bold;font-family: 'Cuprum', sans-serif !important;}
+.check-control{width:16px;height:16px;}
+.radio label, .checkbox label{font-size:14px;font-family: 'Cuprum', sans-serif !important;line-height:25px;}
+.form-horizontal .checkbox{padding-top:0px !important;}
+
+/*Buttons*/
+.introduction-details .introduction-details-desc a.mas{background-color:#E34F00;color:#fff;font-size:16px;border:none !important;padding:5px 30px !important;margin:auto 10px;text-transform:uppercase;}
+.introduction-details .introduction-details-desc a.mas:hover{background-color:#555;}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#main-banner{float:left;width:100%;height:630px;background:url("../images/home-banner.jpg") no-repeat center center;background-size:cover;position:relative;margin:70px 0 0 0;}
+.main-banner-desc{position:absolute;left:0px;top:50%;width:100%;height:270px;margin:-145px 0 0 0;}
+.main-banner-desc h1{font-weight:normal;font-size:76px;color:#fff;font-family: 'Oswald', sans-serif;line-height:75px;margin:0px 0 26px 0;text-shadow:rgba(36, 36, 36, 0.65) -1px 2px 3px;}
+.main-banner-desc p{font-size:22px;font-weight:normal;color:#fff;display:inline;line-height:30px;}
+.main-banner-desc p a{color:#fff;}
+.main-banner-desc p img{vertical-align:middle;margin-top:-4px;margin-right:7px;}
+
+
+.introduction{padding:30px 0px;}
+.introduction h1{font-family: 'Oswald', sans-serif;font-size:52px;font-weight:normal;line-height:53px;color:#2572AF;text-align:center;letter-spacing:-1px;}
+.introduction p{font-family: 'Ubuntu', sans-serif;font-size:16px;font-weight:normal;line-height:22px;color:#939598;text-align:center;padding:10px 0px 0px 0px;text-transform:uppercase;}
+.introduction p.no_caps{text-transform:none;font-family:'gotham_bookregular';font-size:18px;line-height:28px;}
+.introduction-details img{width:100%;height:500px !important;float:left;}
+.introduction-details .col-md-12{display:block;padding:0px !important;}
+.introduction-details .introduction-details-desc{width:100%;position:absolute;bottom:0;padding:0px;}
+.introduction-details .introduction-details-desc h3{font-size:48px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:29px;padding:0px 0px 27px 0px;}
+.introduction-details .introduction-details-desc p{text-align:center;font-size:20px;font-weight:normal;font-family: 'ubuntu', sans-serif;color:#fff;line-height:31px;padding-bottom:39px;margin:0 120px;}
+.introduction-details .introduction-details-desc a{text-align:center;font-size:18px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;display:inline-block;line-height:30px;}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.about-us-banner{background:url("../images/about-us.jpg") no-repeat center center;background-size:cover;}
+.design-engineering-banner{background:url("../images/design-engineering.jpg") no-repeat center center;background-size:cover;}
+.tool-making-banner{background:url("../images/tool-making.jpg") no-repeat center center;background-size:cover;}
+.molding-banner{background:url("../images/molding.jpg") no-repeat center center;background-size:cover;}
+.assembly-banner{background:url("../images/assembly.jpg") no-repeat center center;background-size:cover;}
+.value-added-banner{background:url("../images/value-added.jpg") no-repeat center center;background-size:cover;}
+.quality-banner{background:url("../images/quality.jpg") no-repeat center center;background-size:cover;}
+.jigs-fixtures-banner{background:url("../images/jigs-fixtures.jpg") no-repeat center center;background-size:cover;}
+.tool-design-banner{background:url("../images/tool-design.jpg") no-repeat center center;background-size:cover;}
+.contact-banner{background:url("../images/contact.jpg") no-repeat center center;background-size:cover;}
+.request-quote-banner{background:url("../images/request.jpg") no-repeat center center;background-size:cover;}
+
+/*For Tablet screen*/                                           
+@media screen (min-width: 768px)  
+{
+.control-label{padding:0px !important;}
+.add-margin{margin-top:15px !important;}
+}
+
+/*For Mobile Screen*/
+@media (max-width:768px)
+{
+body{ overflow-x:hidden; }
+.navbar-brand{font-size:20px !important;}
+.navbar-brand img{width: 180px;margin-top: 8px;}
+h1.enquiry{font-size:28px;}
+ul.dropdown-menu li a {padding:10px 15px 10px 30px !important;background-color:#046AA6; color:#fff !important;}
+ul.dropdown-menu li a:hover{color:#000 !important;}
+#main-banner{height:275px;}
+.main-banner-desc h1{font-size:36px;line-height:40px;margin:100px 0 26px 0;}
+.main-banner-desc p{font-size:16px;font-weight:normal;color:#fff;display:inline;line-height:18px;}
+
+.introduction{padding:5px 0px;}
+.introduction h1{font-family: 'Oswald', sans-serif;font-size:24px;font-weight:normal;line-height:24px;color:#2572AF;text-align:center;letter-spacing:-1px;}
+
+.introduction p{font-family: 'Ubuntu', sans-serif;font-size:12px;font-weight:normal;line-height:14px;color:#939598;text-align:center;padding:5px 0px 0px 0px;text-transform:uppercase;}
+
+.introduction-details img{width:100%;height:225px !important;float:left;background-size:cover;}
+
+.introduction-details .col-md-12{display:block;padding:0px !important;}
+
+.introduction-details .introduction-details-desc{width:100%;position:absolute;bottom:0;padding:0px;}
+
+.introduction-details .introduction-details-desc h3{font-size:48px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:29px;padding:0px 0px 27px 0px;}
+
+.introduction-details .introduction-details-desc p{text-align:center;font-size: 11px;font-weight: normal;line-height: 16px;padding-bottom: 0;margin: 0px 15px !important;position: absolute;top: 100px;width: 90%;}
+
+.introduction-details .introduction-details-desc a{text-align:center;font-size:18px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;display:inline-block;line-height:30px;}
+
+.introduction-details .introduction-details-desc a.mas{margin-top:85px;padding:1px 24px !important;}
+
+#page-banner{width: 100%;background-size: cover;height: 225px;position: relative;margin: 75px 0 0 0;}
+.page-content p{font-size:14px !important;line-height:20px !important;}
+.manufacture_captions h1{font-size:36px !important;line-height:36px !important;}
+ul.listing li{font-size:14px;margin-left:-20px;}
+.add-margin{margin-top:15px !important;}
+.contact-margin{margin-top:15px !important;}
+}         

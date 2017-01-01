@@ -1,0 +1,352 @@
+﻿
+#landing_banner{float:left;width:100%;height:630px;background:url("../images/landing-banner1.jpg") no-repeat center center;background-size:cover;position:relative;margin:70px 0 0 0;}
+#landing_banner.process{background:url("../images/process/bg-process.jpg") no-repeat center center;background-size:cover;}
+#landing_banner.bg_manufacture{background:url("../images/bg-manufacture.jpg") no-repeat center center;background-size:cover;}
+#landing_banner.bg_design{background:url("../images/bg-design.jpg") no-repeat center center;background-size:cover;}
+
+#banner_manufacture{width:100%;background:url("../images/banner_manufacture.jpg") no-repeat center center;background-size:cover;height:400px;position:relative;margin:77px 0 0 0;}
+
+/*#banner_manufacture_outsourcing, #small_banners{width:100%;background:url("../images/manufacturing/banner-outsourcing-best-practices.jpg") no-repeat center center;background-size:cover;height:400px;position:relative;margin:77px 0 0 0;}*/
+
+#banner_manufacture_outsourcing.when-partnerships-add-strategic-value{background:url("../images/1-when-partnerships-add-strategic-value.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.automating-rapid-prototypes{background:url("../images/2-automating-rapid-prototypes.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.a-safer-and-smarter-product{background:url("../images/1-a-safer-and-smarter-product.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.legacy-product-redesign{background:url("../images/2-legacy-product-redesign.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.led-lighting-control{background:url("../images/casestudy-inside-led-lighting-control.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.medical{background:url("../images/purpose/medical.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.military{background:url("../images/purpose/military.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.industrial-controls{background:url("../images/purpose/industrial-controls.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.construction{background:url("../images/purpose/construction.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.material-handling{background:url("../images/purpose/material-handling.jpg") no-repeat center center;}
+#small_banners.purpose_landing{background:url("../images/purpose/landing_banner.jpg") no-repeat center center;background-size:cover;}
+                                                         
+#banner_manufacture_outsourcing.pcb_layout_banner{background:url("../images/design/pcb-layout-banner.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.industrial_controls_banner{background:url("../images/design/industrial-controls-banner.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.electronic-design-banner{background:url("../images/2016.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.mechanical-design-banner{background:url("../images/design/mechanical-design-banner.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.test-systems-banner{background:url("../images/design/test-systems-banner.jpg") no-repeat center center;background-size:cover;}
+
+.landing_captions, .choose_partner_captions{position:absolute;left:0px;top:50%;width:100%;height:270px;margin:-145px 0 0 0;text-align:right;}
+.landing_captions h1, .choose_partner_captions h1{font-weight:normal;font-size:76px;color:#fff;font-family: 'Oswald', sans-serif;line-height:75px;margin:0px 0 26px 0;text-shadow:rgba(36, 36, 36, 0.65) -1px 2px 3px;text-align:right;}
+.landing_captions p, .choose_partner_captions p{font-size:22px;font-weight:normal;color:#fff;display:inline;line-height:30px;}
+.landing_captions p img, .choose_partner_captions p img{vertical-align:middle;margin-top:-4px;margin-right:7px;}
+.intrduction{padding:30px 0px;}
+#mfg_design_resorces_top.intrduction{padding:27px 0px 40px 0px;}
+.intrduction h1, #msg_from_ceo h1, #our_values h1{font-family: 'Oswald', sans-serif;font-size:52px;font-weight:normal;line-height:53px;color:#2572AF;text-align:center;letter-spacing:-1px;}
+.photo-right-desc{margin:18px 0px 21px 0px;}
+#msg_from_ceo h1{text-align:left;padding:43px 0 54px 0;}
+#msg_from_ceo{border-bottom:1px solid #ededed;}
+.intrduction p{font-family: 'Ubuntu', sans-serif;font-size:16px;font-weight:normal;line-height:22px;color:#939598;text-align:center;padding:10px 0px 0px 0px;text-transform:uppercase;}
+.intrduction p.no_caps{text-transform:none;font-family:'gotham_bookregular';font-size:18px;line-height:28px;}
+#client_success_stories .col-md-3{padding:0px 1px 0px 1px;position:relative;}
+.box{width:100%;float:left;position:relative;}
+img.fullwidth{width:100%;float:left;}
+#client_success_stories .story_desc{width:100%;position:absolute;bottom:14%;padding:0px 0px 0px 15px;}
+#client_success_stories .story_desc h3{font-size:32px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:35px;padding:0px 0px 13px 0px;text-shadow:rgba(36, 36, 36, 0.65) -1px 2px 3px;}
+#client_success_stories .story_desc h3 a, #client_success_stories .story_desc h3 a:hover{color:#fff;}
+#client_success_stories .story_desc p{font-size:16px;font-weight:normal;font-family: 'Oswald', sans-serif;color:#E34F00;line-height:20px;}
+#mexico_banner{height:520px;background:url("../images/low-cost-assembly-in-mexico.jpg") no-repeat center top;}
+#hmlv_manfg_banner{height:700px;background:url("../images/world-class-hmlv-manufacturing.jpg") no-repeat center center;background-size:cover;}
+#choose_partner_banner{height:570px;background:url("../images/why-choose-us.jpg") no-repeat center top;background-size:cover;position:relative;}
+#choose_partner_banner.process-quality{height:570px;background:url("../images/process/quality.jpg") no-repeat center top;background-size:cover;}
+#choose_partner_banner.process-manufacturing{height:570px;background:url("../images/process/design-for-manufacturing.jpg") no-repeat center top;background-size:cover;}
+
+#integrated_design_manfng .col-md-6{padding:0px 1px 0px 1px;position:relative;}
+#integrated_design_manfng .integrated_desc{width:100%;position:absolute;bottom:9%;padding:0px 10% 0px 10%;}
+#integrated_design_manfng.design_manfg_colmns .integrated_desc{bottom:auto;top:65%;}
+#integrated_design_manfng .integrated_desc h3{font-size:48px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:29px;padding:0px 0px 27px 0px;}
+#integrated_design_manfng.design_manfg_colmns .integrated_desc h3{font-size:38px;font-family: 'Yanone Kaffeesatz', sans-serif;line-height:42px;padding:0px 0px 21px 0px;}
+#integrated_design_manfng .integrated_desc p{text-align:center;font-size:20px;font-weight:normal;font-family: 'ubuntu', sans-serif;color:#fff;line-height:31px;padding-bottom:39px;}
+#integrated_design_manfng.design_manfg_colmns .integrated_desc p{font-size:18px;color:#E34F00;}
+#integrated_design_manfng .integrated_desc a{text-align:center;font-size:18px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;display:block;line-height:30px;}
+#integrated_design_manfng .integrated_desc img{vertical-align:middle;margin-top:-3px;}
+
+#global_resources{background:#949599;}
+#map-manufacturing-facility{background:#949599;margin-bottom:-22px;}
+#map_design{width:100%;background:#949599;margin-bottom:-22px;}
+.contact_address{width:308px;height:148px;background:#fff;float:right;margin:38px 40px 0px 0px;padding:11px 0px 0px 20px;-webkit-box-shadow:-1px -1px 5px 0px rgba(0,0,0,0.10);-moz-box-shadow:-1px -1px 5px 0px rgba(0,0,0,0.10);box-shadow:-1px -1px 5px 0px rgba(0,0,0,0.10);}
+.contact_address h4{font-size:16px;font-weight:normal;color:#056AA6;font-family: 'Yanone Kaffeesatz', sans-serif;margin-bottom:18px;}
+.contact_address li{padding:0px 0px 13px 35px;background:url("../images/icon_phone.png") no-repeat left 3px;}
+.contact_address li.emailaddress{padding:0px 0px 11px 35px;background:url("../images/icon_email.png") no-repeat left 3px;}
+.contact_address li p{font-weight:normal;color:#056AA6;font-family: 'Yanone Kaffeesatz', sans-serif;font-size:14px;line-height:17px;}
+.contact_address li p span{font-weight:normal;color:#939598;font-family: 'Oswald', sans-serif;font-size:16px;}
+.contact_address li p a{font-weight:normal;color:#939598;font-family: 'Oswald', sans-serif;font-size:14px;}
+#certifications p{height:100px;line-height:100px;float:left;margin-bottom:53px;padding:0px;width:100%;text-align:center;}
+#certifications p img{vertical-align:middle;margin-top:-6px;max-width:139px;}
+#timeline, #timeline-main-images{float:left;width:100%;height:665px;position:relative;}
+.timeline{float:left;width:100%;height:665px;color:#fff;padding-top:126px;background:url("../images/timeline/large/2011.jpg") no-repeat center top;}
+#timeline_1954{background:url("../images/timeline/large/1954.jpg") no-repeat center center;}
+#timeline_1988{background:url("../images/timeline/large/1988.jpg") no-repeat center center;}
+#timeline_1999{background:url("../images/timeline/large/1999.jpg") no-repeat center center;}
+#timeline_2001{background:url("../images/timeline/large/2001.jpg") no-repeat center center;}
+#timeline_2003{background:url("../images/timeline/large/2003.jpg") no-repeat center center;}
+#timeline_2011{background:url("../images/timeline/large/2011.jpg") no-repeat center center;}
+#timeline_2015{background:url("../images/timeline/large/2015.jpg") no-repeat center center;}
+#timeline_1950_design{background:url("../images/timeline-design/large/1950.jpg") no-repeat center center;}
+#timeline_1988_design{background:url("../images/timeline-design/large/1988.jpg") no-repeat center center;}
+#timeline_1995_design{background:url("../images/timeline-design/large/1995.jpg") no-repeat center center;}
+#timeline_2003_design{background:url("../images/timeline-design/large/2003.jpg") no-repeat center center;}
+#timeline_2003_sensor_application_design{background:url("../images/timeline-design/large/2003-Sensor-Application.jpg") no-repeat center center;}
+#timeline_2007_design{background:url("../images/timeline-design/large/2007.jpg") no-repeat center center;}
+#timeline_2015_design{background:url("../images/timeline-design/large/2015.jpg") no-repeat center center;}
+#timeline_1954_manufacturing{background:url("../images/timeline-manufacture/large/1954.jpg") no-repeat center center;}
+#timeline_1991_manufacturing{background:url("../images/timeline-manufacture/large/1991.jpg") no-repeat center center;}
+#timeline_1999_manufacturing{background:url("../images/timeline-manufacture/large/1999.jpg") no-repeat center center;}
+#timeline_2001_manufacturing{background:url("../images/timeline-manufacture/large/2001.jpg") no-repeat center center;}
+#timeline_2003_manufacturing{background:url("../images/timeline-manufacture/large/2003.jpg") no-repeat center center;}
+#timeline_2011_manufacturing{background:url("../images/timeline-manufacture/large/2011.jpg") no-repeat center center;}
+#timeline_2013_manufacturing{background:url("../images/timeline-manufacture/large/2013.jpg") no-repeat center center;}
+#timeline_2016{background:url("../images/timeline/large/2016.jpg") no-repeat center center;}
+.timeline h2{font-size:93px;font-weight:normal;text-shadow:rgba(36, 36, 36, 0.4) -1px 2px 3px;font-family: 'Yanone Kaffeesatz', sans-serif;margin:-16px 0 0 0;}
+.timeline h2.letter-spacing{letter-spacing:-7px;font-size:90px;}
+.timeline#timeline_2001 h2{letter-spacing:-3px;}
+.timeline h3{font-size:34px;font-weight:normal;text-shadow:rgba(36, 36, 36, 0.4) -1px 2px 3px;font-family: 'Yanone Kaffeesatz', sans-serif;line-height:34px;margin:0px 0px 20px 0px;}
+.timeline p{font-size:19px;font-weight:normal;text-shadow:rgba(36, 36, 36, 0.3) -1px 2px 3px;font-family:'gotham_bookregular';line-height:25px;}
+#thumbs{float:left;width:100%;height:165px;position:absolute;bottom:40px;left:0px;text-align:center;overflow:hidden;z-index:3;}
+.line{float:left;width:800px;height:2px;position:absolute;bottom:148px;left:50%;background:#fff;margin:0px 0px 0px -400px;z-index:9999;}
+#people_top{padding:140px 0px 60px 0px;}
+.people_box_container{float:left;width:100%;position:relative;cursor:pointer;padding:0px 0px 28px 0px;}
+.people_box{float:left;width:100%;position:relative;}
+.people_box img{float:left;width:100%;position:relative;}
+.people_txt{float:left;width:100%;height:100%;position:absolute;left:0px;top:0px;background:rgba(4,106,166,0.65);padding:15px 15px 25px 15px;opacity:0;}
+.people_txt p{font-size:10px;color:#fff;font-family: 'Oswald', sans-serif;font-weight:normal;line-height:11px;padding:0px 0px 8px 0px;}
+.people_title{float:left;width:100%;min-height:60px;padding:6px 0px 0px 0px;}
+.people_title p{font-family: 'Yanone Kaffeesatz', sans-serif;font-size:17px;font-weight:normal;color:#2572AF;line-height:20px;}
+.people_title p span{font-family:'gotham_bookregular';font-size:13px;font-weight:normal;color:#6D6E71;display:block;line-height:14px;padding-top:5px;}
+.col_md_5_1{position:relative;min-height:1px;padding-right:10px;padding-left:10px;float:left;width:20%;}
+#design_top_boxes .col_md_5_1{padding-right:1px;padding-left:1px;}
+#design_top_boxes .box{overflow:hidden;}
+#design_top_boxes .design_manfg_desc{width:100%;position:absolute;bottom:0%;padding:15px 0px 10px 15px;z-index:4;}
+#design_top_boxes .purpose_boxes .design_manfg_desc{top:70%;bottom:auto;}
+#design_top_boxes .design_manfg_desc h3{font-size:30px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:29px;padding:0px 0px 36px 0px;text-shadow:rgba(36, 36, 36, 0.65) -1px 2px 3px;}
+#design_top_boxes .design_manfg_desc h3 a{display:inline-block;}
+#design_top_boxes .design_manfg_desc h3 a, #design_top_boxes .design_manfg_desc h3 a:hover{color:#fff;}
+#design_top_boxes .design_manfg_desc ul{float:left;width:100%;display:none;}
+#design_top_boxes .design_manfg_desc ul li{float:left;width:100%;font-size:16px;color:#fff;font-family:'gotham_bookregular';line-height:16px;padding:0px 0px 15px 0px;}
+#design_top_boxes .design_manfg_desc ul li a{color:#fff;}
+.mask_design_manfg{width:100%;height:100%;position:absolute;left:0px;top:100%;background:rgba(4,106,166,0.8);}
+.more_btn, .more_btn:focus, .more_btn:hover{font-size:16px;font-weight:normal;color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif;display:inline-block;padding:12px 70px 12px 70px;background:#E34F00;margin:20px 0 0 0;}
+.choose_partner_captions{top:50%;margin:-65px 0 0 0;height:auto;}
+
+.manufacture_captions{position:absolute;left:0px;bottom:26px;width:100%;margin:0px 0 0 0;}
+.manufacture_captions h1{font-weight:normal;font-size:56px;color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif;line-height:56px;margin:10px 0 26px 0;text-shadow:rgba(36, 36, 36, 0.65) -1px 2px 3px;}
+.manufacture_captions p{font-size:16px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;display:inline;}
+.manufacture_captions p.case_study_dates{margin-top:-15px;margin-bottom:15px;display:block;}
+.manufacture_captions a{display:inline-block;background:#E34F00;color:#fff;padding:6px 15px 7px 15px;margin:0px;cursor:default;}
+.manufacture_captions a.patch_indst_exp{background:rgba(255,255,255,0.77);color:#58595B;}
+.manufacture_captions a.manfg_highlight{background:#129eca;}
+.manufacture_captions p img{vertical-align:middle;margin-top:-4px;margin-right:7px;}
+
+
+#breadcrumbs{float:left;width:100%;padding:30px 0 26px 0;}
+#breadcrumbs p{font-size:13px;font-family:'gotham_bookregular';color:#6D6E71;}
+#breadcrumbs p a{color:#046AA6;}
+
+
+#design_manfg_details h6{font-size:27px;line-height:35px;color:#046AA6;font-weight:normal;font-family:'gotham_bookregular';margin:0px 0px 22px 0px;}
+#design_manfg_details h6.purpose_inside_title{font-size:24px;line-height:32px;}
+
+
+#msg_from_ceo p, #our_values p, #msg_from_ceo li{text-align:justify;}
+
+#design_manfg_details p.title{font-size:20px;color:#056AA6;font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;padding-bottom:11px;padding-top:5px;}
+#our_values h4{font-size:20px;color:#056AA6;font-weight:normal;font-family: 'Oswald', sans-serif;padding:10px 0px 13px 0px;}
+#our_values h1{margin:73px 0px 28px 0px;}
+#msg_from_ceo p.ceo_name{font-size:16px;line-height:22px;margin-bottom:40px;}
+#msg_from_ceo p.ceo_name span{font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;color:#056AA6;font-size:20px;}
+#case_studies p{font-size:16px;color:#6D6E71;font-weight:normal;font-family:'gotham_bookregular';line-height:29px;padding:0px 0px 21px 0px;}
+#case_studies h2{font-size:20px;color:#046AA6;font-weight:normal;font-family: 'Oswald', sans-serif;line-height:20px;padding:10px 0px 21px 0px;}
+#case_studies p.casestudy_img{text-align:center;}
+#case_studies p.casestudy_img img{width:100%;border:1px solid #f1f2f2;}
+#design_manfg_details .col-md-9 ul, #msg_from_ceo ul{padding:0px 0px 13px 0px;}
+#design_manfg_details .col-md-9 ul ul, #msg_from_ceo ul ul{padding-top:11px;}
+#design_manfg_details .col-md-9 ul li, #msg_from_ceo ul li{font-size:16px;color:#6D6E71;font-weight:normal;font-family:'gotham_bookregular';line-height:20px;padding:0px 0px 4px 0px;list-style:disc;margin:0px 0px 0px 25px;}
+#msg_from_ceo ul li, #design_manfg_details .col-md-9 ul.colered_listing li{color:#046AA6;}
+
+#msg_from_ceo ul li span, .colered_listing li span{color:#6D6E71;}
+#msg_from_ceo ul li span.color{color:#046AA6;}
+.color{color:#046AA6;}
+.underline{text-decoration:underline;}
+.bolder{font-family: 'Oswald', sans-serif;}
+.breadcrumbs_landing{float:left;width:100%;background:#4d4d4d;text-align:center;padding:13px 0px;margin:2px 0px 0px 0px;background:rgba(0,0,0,0.70);}
+.breadcrumbs_landing p{font-size:13px;line-height:20px;color:#E34F00;}
+.breadcrumbs_landing p a{font-family:'gotham_bookregular';font-size:13px;font-weight:normal;color:#FFFFFF;}
+.breadcrumbs_landing p span{width:1px;height:20px;background:#fff;display:inline-block;margin:0px 10px;}
+.seperator{float:left;width:100%;height:2px;overflow:hidden;background:#ededed;}
+.purpose_banners{width:100%;float:left;}
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape){#design_top_boxes .design_manfg_desc h3{font-size:23px;color:#fff;line-height:23px;}
+#integrated_design_manfng .integrated_desc p{font-size:17px;}
+}
+#contact-banner{background:url("../images/contact/banner-portland.jpg") no-repeat center center;background-size:cover;width:100%;float:left;height:545px;}
+#global-inquiries.contact-inquiries{position:relative;right:20px;top:105px;}
+#msg_from_ceo .contact-head h1{text-align:center;padding:43px 0 14px 0;}
+#msg_from_ceo .contact-head h4{font-size:16px;text-align:center;line-height:20px;font-family: 'Yanone Kaffeesatz', sans-serif;color:#939598;padding-bottom:42px;}
+.contact-detail input[type="text"], .contact-detail textarea{float:right;width:100%;height:44px;margin-bottom:20px;font-size:14px;padding:1px 0px 0px 14px;background-color:#f2f2f2;border:1px solid #d6d6d6;font-family:'gotham_lightregular';color:#93999C;font-style:italic;}
+.contact-detail textarea{height:236px;padding-top:14px;}
+.contact-submit{text-align:center;margin-bottom:66px;margin-top:18px;}
+.contact-detail input[type="submit"]{font-family: 'Yanone Kaffeesatz', sans-serif;display:inline-block;width:380px;height:43px;background:#E35000;border:0px;color:#fff;text-align:center;font-size:20px;}
+.contact-detail::-webkit-input-placeholder{font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+.contact-detail:-moz-placeholder{opacity:1;font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+.contact-detail::-moz-placeholder{opacity:1;font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+.contact-detail:-ms-input-placeholder{font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+#banner_manufacture_outsourcing.portland{background:url("../images/contact/banner-portland.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.india{background:url("../images/contact/banner-india.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.singapore{background:url("../images/contact/banner-singapore.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.tecate-mexico{background:url("../images/contact/banner-tecate-mexico.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.milwaukee{background:url("../images/contact/banner-milwaukee.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.corvallis{background:url("../images/contact/banner-corvallis.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.contact_inner_banner .manufacture_captions h1{margin-bottom:6px;}
+#contact_captions h4{font-size:17px;color:white;display:inline-block;margin-top:15px;font-weight:normal;font-family: 'Oswald', sans-serif;}
+#contact_captions img{float:left;margin-right:10px;margin-top:-15px;}
+#global-inquiries{position:relative;top:0;right:0;}
+.contact-add li{font-size:14px;margin-bottom:19px;font-family:'gotham_bookregular';color:#6D6E71;}
+.contact-add li img{float:left;width:20px;margin-right:14px;}
+.contact-add li a{color:#6D6E71;}
+.contact-add li a.getdirection_link{font-family: 'Yanone Kaffeesatz', sans-serif;color:#E34F00;font-weight:bold;margin-top:10px;display:inline-block;}
+#contact_inner_maps{width:100%;float:left;height:450px;margin-top:45px;margin-bottom:-20px;}
+#contact_inner_maps.portland_map{background:url("../images/contact/portland-map.jpg") no-repeat center center;background-size:cover;}
+#contact-main-map{float:left;width:100%;margin:77px 0 0 0;position:relative;background:#949599;}
+#contactus_map{background:#949599 url("../images/map.jpg") no-repeat center center;width:100%;height:545px;position:absolute;top:0px;left:0px;}
+#contact_main_address{float:right;width:360px;background:#1b76ab;margin:60px 20px 0px 0px;position:absolute;right:0px;top:0px;}
+#contact_main_address h4{width:100%;height:42px;border-bottom:1px solid #fff;padding:0px 20px;color:white;line-height:42px;text-align:center;}
+#contact_main_address h5{width:100%;height:32px;font-size:12px;color:white;line-height:32px;font-weight:normal;}
+#contact_main_address li{font-family:'gotham_bookregular';width:100%;height:62px;display:inline-block;border-bottom:1px solid #fff;color:white;padding:0px 10px 0px 0px;line-height:62px;font-weight:normal;font-size:14px;}
+.icon_contacts{float:left;width:66px;text-align:center;height:61px;background:#0a6da8;margin:0px 18px 0px 0px;}
+#contact_main_address li .icon_contacts img, #contact_main_address h5 img{padding:0px;z-index:999;vertical-align:middle;margin:-4px 44px 0 25px;}
+#contact_main_address h5 img{margin:-4px 10px 0 15px;}
+#contact_main_address li a{color:#fff;}
+#contact_main_address li:last-child{border:0px;}
+#contact_main_address li.click_location{height:33px;line-height:33px;}
+#contact_inner_sales_inquiries{float:left;width:100%;position:relative;}
+#contact_inner_sales_inquiries #contact_main_address{position:relative;left:0px;top:-37px;margin:0px;}
+#contact_inner_sales_inquiries #contact_main_address h4{text-align:left;}
+#slideshow-1{float:left;width:100%;}
+#cycle-1{width:100%;float:left;height:665px;}
+#cycle-2{width:100%;float:left;}
+#slideshow-1, #slideshow-2{width:100%;}
+#slideshow-2{margin-top:10px}
+#thumbs{z-index:99999;}
+.timeline_item{position:relative;min-height:155px;}
+#thumbs a{float:left;width:94px;height:94px;position:relative;text-align:center;margin:0px 20px;display:block;color:#fff;}
+#thumbs a img{width:92px;height:92px;text-align:center;margin:0px 0px;border:2px solid #fff;border-radius:50%;position:absolute;left:0px;top:0px;background:#fff;}
+#thumbs a span{width:100%;position:absolute;left:0px;top:0px;}
+#thumbs a span.overlay{width:88px;height:88px;left:2px;top:2px;background:rgba(5,106,166,0.66);border-radius:50%;}
+#thumbs a:hover span.overlay, #thumbs .cycle-slide-active span.overlay{background:rgba(277,88,0,0.85);}
+#thumbs a span.year{top:36px;font-size:18px;color:#fff;font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;}
+#thumbs p{font-size:11px;color:#fff;font-family: 'Oswald', sans-serif;font-weight:normal;padding:11px 10px;line-height:13px;float:left;width:100%;}
+#banner_manufacture_outsourcing.vertical-integration{background:url("../images/manufacturing/banner-vertical-integration.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.supply-chain-mgnt{background:url("../images/manufacturing/banner-supply-chain-mgnt.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.pcb-assembly{background:url("../images/manufacturing/banner-pcb-assembly.jpg") no-repeat center center;background-size:cover;}
+#banner_manufacture_outsourcing.box-build{background:url("../images/manufacturing/banner-box-build.jpg") no-repeat center center;background-size:cover;}
+footer{float:left;width:100%;background:#066aa6;margin:22px 0 0 0;padding:37px 0 12px 0;}
+.footer_colmn{float:left;margin:0px 33px 0px 0px;width:166px;}
+.footer_colmn.mainCategories{margin:0px 0px 0px 20px;width:auto;}
+.footer_colmn.briefcase_app{margin:0px 0px 0px 0px;width:auto;float:right;}
+#footer_logo{display:inline-block;margin:3px 0 0 0;}
+footer h4{font-size:16px;font-family: 'Yanone Kaffeesatz', sans-serif;color:#fff;line-height:16px;}
+footer .footer_colmn.mainCategories h4{padding-bottom:15px;}
+footer .footer_colmn.briefcase_app h4{line-height:17px;}
+footer .footer_colmn.briefcase_app img{margin:3px 0px 5px 0px;}
+footer .footer_colmn.briefcase_app span{font-size:10px;font-family:'gotham_bookregular';color:#59BBE2;}
+footer a, footer a:hover{color:#fff;}
+footer ul{float:left;width:100%;padding:13px 0px 0px 0px;margin:10px 0 0 0;border-top:1px solid #398ab9;}
+footer ul li{float:left;width:100%;padding:2px 0px 7px 0px;margin:0px 0 0 0;}
+footer ul li a{color:#fff;font-family:'gotham_bookregular';font-size:12px;}
+.footer_seperator{float:left;width:100%;height:1px;background:#398ab9;margin:41px 0 0 0;}
+.partners{float:left;margin:22px 0 0 0;}
+.partners h4{float:left;margin:10px 0px 0px 0px;}
+.partners h4.brief_case_app{line-height:24px;margin:6px 0px 0px 150px;}
+.partners h4.brief_case_app a{line-height:24px;margin:0px;display:block;}
+.partners h4.brief_case_app a:hover, .partners h4.brief_case_app a:focus{color:#fff;}
+.partners h4.brief_case_app img{vertical-align:middle;margin-top:-10px;}
+.partners a{float:left;display:inline-block;margin:0px 14px 0px 28px;}
+.designed_by{float:right;margin:35px 0 0 0;}
+.designed_by p{font-size:11px;color:#fff;font-family:'gotham_bookregular';}
+.designed_by p a{font-family: 'Oswald', sans-serif;}
+#contact_maps{float:left;width:100%;height:450px;margin-top:45px;margin-bottom:-22px;}
+.design-manufacture{float:left;width:100%;}
+#tabs{float:left;width:100%;text-align:center;}
+#tabs a{width:220px;height:60px;display:inline-block;text-align:center;border:2px solid #056aa6;font-size:19px;font-weight:normal;font-family: 'Yanone Kaffeesatz', sans-serif;color:#056aa6;line-height:56px;background:#fff;position:relative;}
+#tabs a:first-child img{margin-top:-8px;}
+#tabs a img{vertical-align:middle;margin-top:-4px;margin-right:5px;}
+#tabs a img:last-child{display:none;}
+#tabs a.current_tab{color:#fff;background:#056aa6;}
+#tabs a.current_tab img:first-child{display:none;}
+#tabs a.current_tab img:last-child{display:inline-block;}
+#tabs a.current_tab:after{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(136, 183, 213, 0);border-top-color:#056aa6;border-width:15px;margin-left:-15px;}
+.arrow_active{width:135px;height:9px;display:block;background:url("../images/process/arrow.png") no-repeat center top;position:absolute;left:0px;bottom:-2px;}
+#line_dotted{width:90%;height:3px;position:absolute;top:49px;left:5%;background:url("../images/process/line.png") repeat-x center top;}
+.process_links{float:left;width:100%;height:192px;margin:0px 0 0 0;position:relative;border-bottom:1px solid #056aa6;}
+.process_links a{float:left;width:135px;text-align:center;font-size:16px;line-height:17px;margin:0px 62px 0px 0px;color:#939598;position:relative;z-index:4;}
+.process_links a img{border-radius:50%;margin-bottom:13px;background:#3f8bbc;padding:7px;}
+.process_links a.last_link{margin:0px 0px 0px 0px;}
+.process_links a:hover img, .process_links a.active_link img{background:#066aa6;}
+.design_manfg_data{float:left;width:100%;padding:32px 0 0 0;display:none;}
+.design_manfg_data p{font-family:'gotham_bookregular';font-size:18px;color:#6D6E71;line-height:30px;font-weight:normal;}
+.tab_content{display:none;}
+.whitepaper{float:left;width:100%;}
+.pro-box{float:left;width:100%;position:relative;margin-bottom:45px;}
+.whitepaper-caption{float:left;width:100%;position:absolute;bottom:30px;padding:0px 0px 0px 15px;}
+.whitepaper-caption h3{color:#fff;font-size:19px;font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;}
+.pro-box h4{font-family: 'Oswald', sans-serif;position:absolute;top:25px;padding:6px 10px 7px 10px;background:#13a4d0;color:#fff;margin:0px 0px 0px 15px;font-size:13px;}
+.pro-box h4.orange{background:#e35000;}
+#banner_manufacture_outsourcing.quality-inner-banner{background:url("../images/process/quality.jpg") no-repeat 10% 10%;background-size:cover;}
+#banner_manufacture_outsourcing.dfm-banner{background:url("../images/process/design-for-manufacturing.jpg") no-repeat 50% 20%;background-size:cover;}
+@media (min-width:992px) and (max-width:1024px){#design_top_boxes .design_manfg_desc h3{font-size:23px;line-height:22px;}
+#design_top_boxes .design_manfg_desc ul li{font-size:13px;line-height:15px;}
+}
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape){#client_success_stories .story_desc h3{font-size:22px;line-height:25px;}
+.intrduction p{font-size:15px;}
+#integrated_design_manfng .integrated_desc p{font-size:16px;line-height:27px;}
+#design_top_boxes .design_manfg_desc h3{font-size:22px;line-height:21px;}
+#design_top_boxes .design_manfg_desc ul{padding-bottom:19px;}
+#design_top_boxes .design_manfg_desc ul li{font-size:14px;}
+#integrated_design_manfng.design_manfg_colmns .integrated_desc{top:58%;}
+.intrduction p.no_caps{font-size:15px;line-height:25px;}
+#design_top_boxes .purpose_boxes .design_manfg_desc{top:60%;}
+#tabs a:first-child img{margin-top:-4px;}
+}
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){#client_success_stories .story_desc h3{font-size:22px;line-height:25px;}
+.intrduction p{font-size:15px;}
+#integrated_design_manfng .integrated_desc p{font-size:16px;line-height:27px;}
+#design_top_boxes .design_manfg_desc h3{font-size:22px;line-height:21px;}
+#design_top_boxes .design_manfg_desc ul{padding-bottom:19px;}
+#design_top_boxes .design_manfg_desc ul li{font-size:14px;}
+#integrated_design_manfng.design_manfg_colmns .integrated_desc{top:58%;}
+.intrduction p.no_caps{font-size:15px;line-height:25px;}
+#design_top_boxes .purpose_boxes .design_manfg_desc{top:60%;}
+#tabs a:first-child img{margin-top:-4px;}
+}
+.design_manfg_data .question{color:#046AA6;font-family: 'Oswald', sans-serif;margin-bottom:12px;}
+.intrduction .no-caps{text-transform:none;}
+#contact_tabs{float:left;width:100%;background:#056aa6;height:42px;margin:77px 0 0 0;}
+#contact_tabs a{float:left;width:158px;background:#056aa6;height:42px;display:block;text-align:center;color:#fff;font-size:14px;font-family:'gotham_bookregular';line-height:42px;border-right:1px solid #1a85bb;}
+#contact_tabs a:first-child{border-left:1px solid #1a85bb;}
+#contact_tabs a img{margin:-5px 9px 0px 0px;vertical-align:middle;}
+.process-mgmt-container{float:left;width:100%;margin-bottom:32px;}
+.process-img{float:left;width:141px;margin-right:20px;}
+.process-mgmt_txt{font-family:'gotham_bookregular';}
+.process-mgmt_txt h5{font-size:12px;line-height:16px;margin-top:11px;}
+.process-mgmt_txt h2{font-family: 'Yanone Kaffeesatz', sans-serif;font-size:19px;line-height:25px;margin:3px 0 6px 0;}
+.process-mgmt_txt p{font-size:11px;line-height:16px;color:#58595B;}
+.process-mgmt_txt a{font-family: 'Yanone Kaffeesatz', sans-serif;float:left;font-size:10px;line-height:16px;margin-top:10px;margin-right:10px;text-decoration:underline;}
+.process-mgmt_txt h2,.process-mgmt_txt h5,.process-mgmt_txt a{color:#056AA6;font-family: 'Oswald', sans-serif;}
+#send_by_email{float:left;width:400px;padding:5px 10px 10px 10px;background:#fff;border:2px solid #ccc;}
+#send_by_email h6{font-family: 'Yanone Kaffeesatz', sans-serif;font-weight:normal;font-size:20px;color:#333;padding:5px 0px 15px 0px;}
+#send_by_email input[type="text"], #send_by_email textarea{float:right;width:100%;height:44px;margin-bottom:20px;font-size:14px;padding:1px 0px 0px 14px;background-color:#f2f2f2;border:1px solid #d6d6d6;font-family:'gotham_lightregular';color:#93999C;font-style:italic;}
+#send_by_email textarea{height:236px;padding-top:14px;}
+#send_by_email .submit{text-align:center;margin-bottom:66px;margin-top:18px;}
+#send_by_email input[type="submit"], #send_by_email input[type="button"]{font-family: 'Yanone Kaffeesatz', sans-serif;display:inline-block;width:48%;height:43px;background:#E35000;border:0px;color:#fff;text-align:center;font-size:20px;float:left;margin:0 0 0 4%;}
+#send_by_email input[type="submit"]{margin-left:0px;}
+#send_by_email::-webkit-input-placeholder{font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+#send_by_email:-moz-placeholder{opacity:1;font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+#send_by_email::-moz-placeholder{opacity:1;font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+#send_by_email:-ms-input-placeholder{font-family:'gotham_lightregular';color:#93999C;font-style:italic;font-size:14px;}
+#send_by_email p{float:left;position:relative;width:100%;}
+#contact_form p{float:left;width:100%;position:relative;margin:0px;padding:0px;}
+label.error{font-size:11px;font-weight:normal;position:absolute;left:0px;top:37px;width:100%;color:red;font-family: 'Yanone Kaffeesatz', sans-serif;text-align:right;}
+#send_by_email label.error{top:45px;}
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:portrait){#menus{float:left;margin-left:-75px;}
+}
+@media only screen and (min-device-width:481px) and (max-device-width:1024px) and (orientation:landscape){#menus{float:left;margin-left:-75px;}
+}

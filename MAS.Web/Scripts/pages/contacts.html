@@ -1,0 +1,93 @@
+﻿<style>
+    .loading {
+        width: 16px;
+        height: 16px;
+        background: transparent url('loading.gif') no-repeat 0 0;
+        font-size: 0px;
+        display: inline-block;
+    }
+</style>
+<div id="page-banner" class="contact-banner">
+    <div class="manufacture_captions">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p><a href="javascript:void(0);">We love to meet you</a></p>
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-content">
+    <div class="container">
+        <div class="col-lg-8">
+            <div class="row" style="background-color: #e8e1e1;padding:5px 20px;margin-bottom:15px;" ng-controller="ContactCtrl">
+                <h3 class="col-blue">Call or fill the Contact Form to find out how MAS Mechsol can help you.</h3>
+                <p>Feel free to contact MAS Mechsol, whenever you want. Our representative will contact you.</p>
+                <form class="form-horizontal" name="frmContact" ng-submit="fnSubmit()" novalidate>
+                    <div class="form-group">
+                        <div class="col-lg-6" ng-class="{'has-error':frmContact.Name.$invalid && !frmContact.Name.$pristine}">
+                            <input type="text" ID="Name" name="Name" placeholder="Enter Your Full Name" class="form-control" ng-model="contact.Name" validate-name required />
+                            <span class="help-block" ng-show="frmContact.Name.$invalid && !frmContact.Name.$pristine">Please enter your Name.</span>
+                        </div>
+                        <div class="col-lg-6 contact-margin" ng-class="{'has-error':frmContact.Email.$invalid && !frmContact.Email.$pristine}">
+                            <input type="email" ID="Email" name="Email" placeholder="Enter Your Email" class="form-control" ng-model="contact.Email" validate-email required />
+                            <span class="help-block" ng-show="frmContact.Email.$invalid && !frmContact.Email.$pristine">Please enter valid Email.</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-6">
+                            <input type="text" ID="Company" name="Company" placeholder="Enter Your Company Name" class="form-control" ng-model="contact.Company" />
+                        </div>
+                        <div class="col-lg-6 contact-margin" ng-class="{'has-error':frmContact.Mobile.$invalid && !frmContact.Mobile.$pristine}">
+                            <input type="tel" ID="Mobile" name="Mobile" maxlength="10" placeholder="Enter Your Mobile No." class="form-control" ng-model="contact.Mobile" validate-mobile required />
+                            <span class="help-block" ng-show="frmContact.Mobile.$invalid && !frmContact.Mobile.$pristine">Please enter valid Mobile No.</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12" ng-class="{'has-error':frmContact.Message.$invalid && !frmContact.Message.$pristine}">
+                            <textarea ID="Message" name="Message" class="form-control" rows="3" placeholder="Write a brife description what you would like from MAS Mechsol." ng-model="contact.Message" ng-maxlength="500" required></textarea>
+                            <span class="help-block" ng-show="frmContact.Message.$invalid && !frmContact.Message.$pristine && frmContact.Message.$error">Please enter Message. Maximum 500 charcters.</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-12 text-left">
+                            <input type="submit" ID="btnSend" value="Send" ng-disabled="frmContact.$invalid" class="btn btn-primary btn-inline btn-md" />
+                            <input type="reset" ID="btnCancel" value="Cancel" class="btn btn-primary btn-inline btn-md" ng-click="fnResest()" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-lg-1">&nbsp;</div>
+        <div class="col-lg-3">
+            <div class="row">
+                <h3 class="col-blue">Office</h3>
+                <p style="margin:0;padding:0;"><i class="fa fa-map-marker"></i> <b>Address:</b> 50-C, Kamla Nagar,</p>
+                <p style="margin:0;padding:0;margin-left:85px;">Nanhera,</p>
+                <p style="margin:0;padding:0;margin-left:85px;margin-bottom:15px;">Ambala Cantt-273001.</p>
+                <p><i class="fa fa-phone"></i> <b>Phone:</b> +91 - 8950290887</p>
+                <p><i class="fa fa-envelope"></i> <b>Email:</b> info@masmechsol.com</p>
+            </div>
+            <div class="row">
+                <h3 class="col-blue">Business Hours</h3>
+                <p><i class="fa fa-clock-o"></i> Monday-Saturday : 9am to 5pm.</p>
+                <p><i class="fa fa-clock-o"></i> Sunday : Closed.</p>
+            </div>
+        </div>
+    </div>
+    <div class="loading"></div>
+</div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-80012709-1', 'auto');
+    ga('require', 'linkid');
+    ga('set', 'page', '/contacts.html');
+    ga('send', 'pageview');
+</script>
