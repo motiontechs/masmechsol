@@ -9,7 +9,7 @@
         .when('/', {
             templateUrl: 'scripts/pages/home.html',
             controller: 'mainCtrl',
-            title: 'Home'
+            title: 'Home Page'
         })
         .when('/about', {
             templateUrl: 'scripts/pages/about.html',
